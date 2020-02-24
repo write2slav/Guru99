@@ -1,7 +1,7 @@
 package com.ponezha.guru99.hooks;
 
-import org.junit.After;
-import org.junit.Before;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -14,7 +14,7 @@ public class Hooks {
 
 	public WebDriver driver;
 
-	@Before
+	@BeforeMethod
 	public void setUp() {
 
 		System.out.println("Before STARTS");
@@ -35,7 +35,7 @@ public class Hooks {
 
 	}
 
-	@After
+	@AfterMethod
 	public void tearDown() throws InterruptedException {
 
 		driver.quit();

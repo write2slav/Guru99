@@ -1,9 +1,7 @@
 package com.ponezha.guru99.login;
 
-import static org.junit.Assert.assertEquals;
-
-import org.junit.Test;
-
+import static org.testng.AssertJUnit.assertEquals;
+import org.testng.annotations.Test;
 import com.ponezha.guru99.hooks.Hooks;
 import com.ponezha.guru99.utils.ConfigFileReader;
 
