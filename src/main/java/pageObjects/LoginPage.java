@@ -4,6 +4,7 @@ package pageObjects;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
 import com.ponezha.guru99.basepage.BasePage;
@@ -30,7 +31,7 @@ public class LoginPage extends BasePage {
 
 
 	// Login using username and password
-	public void loginWithCredentials(String username, String password){
+	public Dashboard loginWithCredentials(String username, String password){
 
 		// Waiting for element to be visible
 		wait.until(ExpectedConditions.visibilityOf(usernameTextField));
@@ -40,6 +41,7 @@ public class LoginPage extends BasePage {
 		usernameTextField.sendKeys(username);
 		passwordTextField.sendKeys(password);
 		loginBtn.click();
+		return PageFactory.initElements(driver, Dashboard.class);
 
 	}
 }
