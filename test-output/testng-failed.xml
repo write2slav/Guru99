@@ -6,7 +6,7 @@
       <class name="com.ponezha.guru99.login.LoginTest">
         <methods>
           <include name="setUp"/>
-          <include name="correctCredentials" invocation-numbers="0 1 2"/>
+          <include name="correctCredentials" invocation-numbers="0"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.ponezha.guru99.login.LoginTest -->

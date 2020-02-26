@@ -13,13 +13,13 @@ public class LoginTest extends Hooks {
 	private String expectedPageTitle = "Guru99 Bank Manager HomePage";
 
 	@Test(dataProvider = "LoginDataProvider", dataProviderClass = DataProviderClass.class)
-	public void correctCredentials(String userName, String password) {
+	public void correctCredentials(String userName, String password) throws Exception {
 
 		LoginPage loginPage = new LoginPage(super.driver);
-		loginPage.loginWithCredentials(userName, password);
+		loginPage.loginWithCredentials(userName, password).takeSnapShot("./screenshots/SeccessfulLogin.png");;
 
 		String actualPageTitle = driver.getTitle();
-
+		
 		assertEquals(expectedPageTitle, actualPageTitle);
 
 	}

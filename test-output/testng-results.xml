@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="3" total="4" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-02-26T10:55:38 GMT" name="Default suite" finished-at="2020-02-26T10:56:08 GMT" duration-ms="30314">
+  <suite started-at="2020-02-26T13:00:52 GMT" name="Default suite" finished-at="2020-02-26T13:01:03 GMT" duration-ms="10820">
     <groups>
     </groups>
-    <test started-at="2020-02-26T10:55:38 GMT" name="Default test" finished-at="2020-02-26T10:56:08 GMT" duration-ms="30314">
+    <test started-at="2020-02-26T13:00:52 GMT" name="Default test" finished-at="2020-02-26T13:01:03 GMT" duration-ms="10820">
       <class name="com.ponezha.guru99.login.LoginTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ponezha.guru99.login.LoginTest@30b7c004]" started-at="2020-02-26T10:55:38 GMT" name="setUp" finished-at="2020-02-26T10:55:47 GMT" duration-ms="8896" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ponezha.guru99.login.LoginTest@2f177a4b]" started-at="2020-02-26T13:00:52 GMT" name="setUp" finished-at="2020-02-26T13:00:59 GMT" duration-ms="7376" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="correctCredentials(java.lang.String, java.lang.String)[pri:0, instance:com.ponezha.guru99.login.LoginTest@30b7c004]" started-at="2020-02-26T10:55:47 GMT" name="correctCredentials" data-provider="LoginDataProvider" finished-at="2020-02-26T10:55:49 GMT" duration-ms="2433" status="PASS">
+        <test-method signature="correctCredentials(java.lang.String, java.lang.String)[pri:0, instance:com.ponezha.guru99.login.LoginTest@2f177a4b]" started-at="2020-02-26T13:00:59 GMT" name="correctCredentials" data-provider="LoginDataProvider" finished-at="2020-02-26T13:01:02 GMT" duration-ms="3048" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -27,79 +27,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- correctCredentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ponezha.guru99.login.LoginTest@30b7c004]" started-at="2020-02-26T10:55:49 GMT" name="tearDown" finished-at="2020-02-26T10:55:50 GMT" duration-ms="250" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ponezha.guru99.login.LoginTest@30b7c004]" started-at="2020-02-26T10:55:50 GMT" name="setUp" finished-at="2020-02-26T10:55:54 GMT" duration-ms="3978" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="incorrectCredentials(java.lang.String, java.lang.String)[pri:0, instance:com.ponezha.guru99.login.LoginTest@30b7c004]" started-at="2020-02-26T10:55:54 GMT" name="incorrectCredentials" data-provider="LoginDataProvider" finished-at="2020-02-26T10:55:56 GMT" duration-ms="2129" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[incorrectUsername]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[incorrectPassword]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- incorrectCredentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ponezha.guru99.login.LoginTest@30b7c004]" started-at="2020-02-26T10:55:56 GMT" name="tearDown" finished-at="2020-02-26T10:55:56 GMT" duration-ms="212" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ponezha.guru99.login.LoginTest@30b7c004]" started-at="2020-02-26T10:55:56 GMT" name="setUp" finished-at="2020-02-26T10:56:00 GMT" duration-ms="4502" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="incorrectPassword(java.lang.String, java.lang.String)[pri:0, instance:com.ponezha.guru99.login.LoginTest@30b7c004]" started-at="2020-02-26T10:56:00 GMT" name="incorrectPassword" data-provider="LoginDataProvider" finished-at="2020-02-26T10:56:02 GMT" duration-ms="1875" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[mngr247199]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[incorrectPassword]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- incorrectPassword -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ponezha.guru99.login.LoginTest@30b7c004]" started-at="2020-02-26T10:56:02 GMT" name="tearDown" finished-at="2020-02-26T10:56:02 GMT" duration-ms="165" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ponezha.guru99.login.LoginTest@30b7c004]" started-at="2020-02-26T10:56:02 GMT" name="setUp" finished-at="2020-02-26T10:56:07 GMT" duration-ms="4203" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="incorrectUsername(java.lang.String, java.lang.String)[pri:0, instance:com.ponezha.guru99.login.LoginTest@30b7c004]" started-at="2020-02-26T10:56:07 GMT" name="incorrectUsername" data-provider="LoginDataProvider" finished-at="2020-02-26T10:56:08 GMT" duration-ms="1386" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[incorrectUsername]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[zAvyrUn]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- incorrectUsername -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ponezha.guru99.login.LoginTest@30b7c004]" started-at="2020-02-26T10:56:08 GMT" name="tearDown" finished-at="2020-02-26T10:56:08 GMT" duration-ms="210" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ponezha.guru99.login.LoginTest@2f177a4b]" started-at="2020-02-26T13:01:02 GMT" name="tearDown" finished-at="2020-02-26T13:01:03 GMT" duration-ms="320" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
