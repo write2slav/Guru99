@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.ponezha.guru99.dashboard.DashboardTest">
+      <class name="com.ponezha.guru99.login.LoginTest">
         <methods>
           <include name="setUp"/>
-          <include name="isManagerIdShown"/>
+          <include name="correctCredentials" invocation-numbers="0 1 2"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.ponezha.guru99.dashboard.DashboardTest -->
+      </class> <!-- com.ponezha.guru99.login.LoginTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
